@@ -1,6 +1,6 @@
 # August Oo's Portfolio
 
-![Profile Image](images/passport.jpg)
+![Profile Image](images/passport.jpg width:300px, height:300px;)
 
 Welcome to my portfolio! I'm August Oo, a passionate IT learner who is motivated to explore and learn everything about the world of Information Technology.
 
@@ -15,12 +15,12 @@ My journey into the IT industry is driven by a strong motivation to learn, adapt
 ### [School Project](A1_AugustOo_s4019427/index.html)
 - This is my assessment project for web development.
 - The project demonstrates my understanding of HTML, CSS, and basic web design principles.
-- ![Project Image](images/project1.jpg)
+- ![Project Image](A1_AugustOo_s4019427/images/tourism.png)
 
 ### [Wordpress Project - BIKE SHOP](http://localhost/testsite/)
 - A project created for my Complex ICT content management course.
 - Implemented using Wordpress, showcasing my ability to work with content management systems.
-- ![Project Image](images/bikeshop.jpg)
+- ![Project Image](images/bikeshop.png)
 
 ## Keep in Touch
 
