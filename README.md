@@ -1,6 +1,6 @@
 # August Oo's Portfolio
 
-<p align="center">
+<p align="none">
   <img src="images/passport.jpg" alt="Profile Image" style="width:200px;">
 </p>
 
@@ -17,7 +17,7 @@ My journey into the IT industry is driven by a strong motivation to learn, adapt
 ### [School Project](A1_AugustOo_s4019427/index.html)
 - This is my assessment project for web development.
 - The project demonstrates my understanding of HTML, CSS, and basic web design principles.
-<p align="center">
+<p align="none">
   <img src="A1_AugustOo_s4019427/images/tourism.png" alt="Project 1" style="width:100px;">
 </p>
 
@@ -25,7 +25,7 @@ My journey into the IT industry is driven by a strong motivation to learn, adapt
 ### [Wordpress Project - BIKE SHOP](http://localhost/testsite/)
 - A project created for my Complex ICT content management course.
 - Implemented using Wordpress, showcasing my ability to work with content management systems.
-   <p align="center">
+   <p align="none">
   <img src="images/bikeshop.png" alt="Project 1" style="width:100px;">
 </p>
 
