@@ -6,7 +6,7 @@ Welcome to my portfolio! I'm August Oo, a passionate IT learner who is motivated
 
 ## About Me
 
-I am originally from Myanmar and hold a Bachelor of Law (LL.B) degree. After moving to Australia, I decided to follow my passion for IT and am currently pursuing the Diploma of IT at RMIT University in Melbourne. I have managed and created websites using templates and am enthusiastic about expanding my skills to create unique and impactful web experiences.
+I am originally from Myanmar and hold a Bachelor of Law (LL.B) degree. After moving to Australia, I decided to follow my passion for IT and am currently pursuing the Diploma of IT at RMIT University in Melbourne. I have managed and created websites and am enthusiastic about expanding my skills to create unique and impactful web experiences.
 
 My journey into the IT industry is driven by a strong motivation to learn, adapt, and contribute to meaningful projects.
 
@@ -25,9 +25,9 @@ My journey into the IT industry is driven by a strong motivation to learn, adapt
 ## Keep in Touch
 
 Feel free to get in touch with me:
-- Email: augustoo@email.com
-- Phone: +123-456-7890
-- GitHub: [github.com/august-oo](https://github.com/august-oo)
+- Email: augustoo533114@email.com
+- Phone: 04149193026
+- GitHub: https://augustoo111.github.io/Portfolio/
 
 ## Hire Me
 
@@ -35,7 +35,7 @@ If you're seeking a dedicated and passionate individual who is eager to learn an
 
 ## Download My CV
 
-Interested in learning more about my background and skills? You can download my CV [here](cv.pdf).
+Interested in learning more about my background and skills? You can download my CV [here](images/CV.pdf).
 
 ---
 
