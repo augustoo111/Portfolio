@@ -1,7 +1,8 @@
 # August Oo's Portfolio
 
-<img src="images/passport.jpg" alt="Profile Image" style="width:200px;">
-
+<p align="center">
+  <img src="images/passport.jpg" alt="Profile Image" style="width:200px;">
+</p>
 
 Welcome to my portfolio! I'm August Oo, a passionate IT learner who is motivated to explore and learn everything about the world of Information Technology.
 
