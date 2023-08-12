@@ -18,7 +18,7 @@ My journey into the IT industry is driven by a strong motivation to learn, adapt
 - This is my assessment project for web development.
 - The project demonstrates my understanding of HTML, CSS, and basic web design principles.
 <p align="center">
-  <img src="A1_AugustOo_s4019427/images/tourism.png" alt="Project 1" style="width:200px;">
+  <img src="A1_AugustOo_s4019427/images/tourism.png" alt="Project 1" style="width:100px;">
 </p>
 
 
@@ -26,7 +26,7 @@ My journey into the IT industry is driven by a strong motivation to learn, adapt
 - A project created for my Complex ICT content management course.
 - Implemented using Wordpress, showcasing my ability to work with content management systems.
    <p align="center">
-  <img src="images/bikeshop.png" alt="Project 1" style="width:200px;">
+  <img src="images/bikeshop.png" alt="Project 1" style="width:100px;">
 </p>
 
 ## Keep in Touch
