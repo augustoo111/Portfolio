@@ -23,7 +23,7 @@ My journey into the IT industry is driven by a strong motivation to learn, adapt
 
 ### [Java Project - Winter Skii Resort]
 <p align="none">
-  <img src="A1_AugustOo_s4019427/images/tourism.png" alt="Project 1" style="width:100px;">
+  <img src="ass_2_AugustOo_s4019427/Hostel.jpg" alt="Project 1" style="width:100px;">
 </p>
 
 ### [Wordpress Project - BIKE SHOP](http://localhost/testsite/)
