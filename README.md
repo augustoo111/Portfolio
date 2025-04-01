@@ -4,7 +4,7 @@
  
 </p>
 
-Welcome to my portfolio! I'm August Oo, a passionate IT learner who is motivated to explore and learn everything about the world of Information Technology.
+Welcome to my portfolio! I'm Augustina Oo, a passionate IT learner who is motivated to explore and learn everything about the world of Information Technology.
 
 ## About Me
 
