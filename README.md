@@ -8,7 +8,7 @@ Welcome to my portfolio! I'm August Oo, a passionate IT learner who is motivated
 
 ## About Me
 
-I am originally from Myanmar and hold a Bachelor of Law (LL.B) degree. After moving to Australia, I decided to follow my passion for IT and am currently pursuing the Diploma of IT at RMIT University in Melbourne. I have managed and created websites and am enthusiastic about expanding my skills to create unique and impactful web experiences.
+I am originally from Myanmar and hold a Bachelor of Law (LL.B) degree. After moving to Australia, I decided to follow my passion for IT and am final year of the Bachelor of IT student at RMIT University in Melbourne.
 
 My journey into the IT industry is driven by a strong motivation to learn, adapt, and contribute to meaningful projects.
 
