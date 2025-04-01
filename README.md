@@ -14,21 +14,30 @@ My journey into the IT industry is driven by a strong motivation to learn, adapt
 
 ## Projects
 
-### [School Project](A1_AugustOo_s4019427/index.html)
+### [School Project](https://titan.csit.rmit.edu.au/~s4019427/Aug3-AugustOos_4019427/)
 - This is my assessment project for web development.
 - The project demonstrates my understanding of HTML, CSS, and basic web design principles.
 <p align="none">
+ https://titan.csit.rmit.edu.au/~s4019427/A1_August_s4019427/
   <img src="A1_AugustOo_s4019427/images/tourism.png" alt="Project 1" style="width:100px;">
 </p>
 
-### [Java Project - Winter Skii Resort]
+### [Java Programming Project]_(https://github.com/FurtherJavaProgramming/assignment2-augustoo111)
 <p align="none">
-  <img src="ass_2_AugustOo_s4019427/acc10.jpg"alt="Project 2" style="width:100px;">
-</p>
-
-### [Java Programming Project]
-<p align="none">
-https://github.com/FurtherJavaProgramming/assignment2-augustoo111
+-This project to demostrate my java programming skills with GUI application for The Reading Room
+bookstore.
+-Basic functional requirements are listed below.
+• The application can have many users.
+• Each user can create a profile, with a unique username, password, and first and last name.
+• Once the username and password are created, the user can log in.
+• Each user is shown a dashboard after login. The dashboard should display a personalized
+welcoming message that addresses the user by name. The dashboard also displays the
+top 5 popular books in the bookstore. 
+ -Each user can edit their first and last name.
+ -Add book to cart.
+ -Checkout.
+ -View Order.
+ -Export order.
 </p>
 
 ### [Wordpress Project - BIKE SHOP](http://localhost/testsite/)
