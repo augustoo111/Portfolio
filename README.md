@@ -26,6 +26,11 @@ My journey into the IT industry is driven by a strong motivation to learn, adapt
   <img src="ass_2_AugustOo_s4019427/acc10.jpg"alt="Project 2" style="width:100px;">
 </p>
 
+### [Java Programming Project]
+<p align="none">
+https://github.com/FurtherJavaProgramming/assignment2-augustoo111
+</p>
+
 ### [Wordpress Project - BIKE SHOP](http://localhost/testsite/)
 - A project created for my Complex ICT content management course.
 - Implemented using Wordpress, showcasing my ability to work with content management systems.
