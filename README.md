@@ -18,7 +18,8 @@ My journey into the IT industry is driven by a strong motivation to learn, adapt
 - This is my assessment project for web development.
 - The project demonstrates my understanding of HTML, CSS, and basic web design principles.
 <p align="none">
- https://titan.csit.rmit.edu.au/~s4019427/A1_August_s4019427/
+ https://titan.csit.rmit.edu.au/~s4019427/A1_August_s4019427/</p>
+ <p>
   <img src="A1_AugustOo_s4019427/images/tourism.png" alt="Project 1" style="width:100px;">
 </p>
 
