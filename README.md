@@ -23,7 +23,7 @@ My journey into the IT industry is driven by a strong motivation to learn, adapt
   <img src="A1_AugustOo_s4019427/images/tourism.png" alt="Project 1" style="width:100px;">
 </p>
 
-### [Java Programming Project]_(https://github.com/FurtherJavaProgramming/assignment2-augustoo111)
+### [Java Programming Project](https://github.com/FurtherJavaProgramming/assignment2-augustoo111)
 <p align="none">
 -This project to demostrate my java programming skills with GUI application for The Reading Room
 bookstore.
@@ -41,18 +41,12 @@ top 5 popular books in the bookstore.
  -Export order.
 </p>
 
-### [Wordpress Project - BIKE SHOP](http://localhost/testsite/)
-- A project created for my Complex ICT content management course.
-- Implemented using Wordpress, showcasing my ability to work with content management systems.
-   <p align="none">
-  <img src="images/bikeshop.png" alt="Project 1" style="width:100px;">
-</p>
 
 ## Keep in Touch
 
 Feel free to get in touch with me:
 - Email: augustoo533114@email.com
-- Phone: 04149193026
+- Phone: 0414919306
 - GitHub: https://augustoo111.github.io/Portfolio/
 
 ## Hire Me
