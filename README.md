@@ -17,14 +17,16 @@ I enjoy transforming user needs into engaging, accessible designs, and continuou
 
 ## 💻 Featured Projects
 
-### 🎮 UX/UI Design Project – *GameCo*  
+### 🎮 [UX/UI Design Project – *GameCo*](https://github.com/augustoo111/UXDesignProject)
 > **Tools:** Adobe XD, Microsoft Forms, Excel  
 > **Skills:** UX Research, Wireframing, Prototyping, User Testing
 
 Designed an interactive prototype for a gaming retailer, including:
-- Login popup, real-time inventory search, cart system, store locator, and live chat
+- Login popup, real-time inventory search, cart system, store locator, and live chat [Click here to View or Download from OneDrive](https://1drv.ms/u/c/2204226c0be32991/Efs7YN11Q8NFu7NHgCFU_JABH4Bb5TF4Xcy5AQEyEk9zLw?e=PcSRfL)  
+  *Note: Hosted externally due to GitHub’s file size limitations.*
 - Identified and resolved UX issues post-launch based on user feedback
 - Created troubleshooting flowcharts and delivered a full handover report
+
 
 ---
 
