@@ -1,59 +1,59 @@
-/* Reset default margin and padding */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Base styles */
 body {
   font-family: Arial, sans-serif;
   background-color: #f5f5f5;
   line-height: 1.6;
   color: #333;
   padding: 20px;
-  max-width: 1000px;
-  margin: 0 auto;
+  max-width: 960px;
+  margin: auto;
 }
 
-/* Headings and text */
 h1, h2, h3 {
   color: #2c3e50;
   margin-bottom: 1rem;
 }
 
 ul {
-  padding-left: 20px;
-  margin-bottom: 1rem;
+  list-style: none;
+  padding-left: 0;
 }
 
-p {
-  margin-bottom: 1rem;
+nav ul {
+  display: flex;
+  justify-content: center;
+  background-color: #555;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
 }
 
-a {
-  color: #007acc;
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: white;
   text-decoration: none;
+  padding: 0.5rem;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-/* Header */
-header {
+nav a.active {
   background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1.5rem 0;
+  border-radius: 5px;
 }
 
 .logo-nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
+  gap: 10px;
+  padding: 1rem 0;
 }
 
 .logo-nav img {
@@ -61,128 +61,73 @@ header {
   height: 80px;
 }
 
-.logo-nav h1 {
-  font-size: 1.8rem;
-}
-
-/* Navigation */
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  background-color: #555;
-  padding: 0.5rem 0;
-  flex-wrap: wrap;
-}
-
-nav a {
-  text-decoration: none;
-  color: #fff;
-  margin: 0 1rem;
-  padding: 0.25rem 0.5rem;
-}
-
-nav a.active {
-  background-color: #333;
-  border-radius: 3px;
-}
-
-nav a.inactive {
-  opacity: 0.7;
-}
-
-/* Sections */
 .section-title {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
-.section {
-  margin-bottom: 4rem;
-}
-
-/* Reusable content card */
 .hire-content {
-  max-width: 800px;
-  margin: 0 auto 2rem auto;
-  padding: 2rem;
-  background-color: #ffffff;
-  border-radius: 6px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 0 auto 2rem;
+  max-width: 700px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
-.hire-content p {
-  margin-bottom: 1rem;
-  color: #333;
-  font-size: 1.05rem;
-}
-
-.hire-content ul {
-  margin-bottom: 1rem;
-}
-
-/* Link buttons */
 .link, .cv-link {
   display: inline-block;
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
   padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
   border-radius: 5px;
-  border: 1px solid transparent;
-  transition: background-color 0.3s, color 0.3s;
+  text-decoration: none;
+  margin-top: 1rem;
 }
 
 .link:hover, .cv-link:hover {
-  background-color: #444;
-  color: #fff;
-}
-
-/* Contact section */
-#contact {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 4rem 0;
-}
-
-/* Footer */
-footer {
   background-color: #555;
-  color: #fff;
-  text-align: center;
-  padding: 1rem 0;
-  font-size: 0.9rem;
 }
 
-/* Responsive */
-@media screen and (max-width: 768px) {
-  body {
-    padding: 10px;
-  }
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
 
-  .logo-nav {
-    flex-direction: column;
-  }
+.work-item {
+  width: 300px;
+  background: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
 
+.work-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #fff;
+  background-color: #555;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
   nav ul {
     flex-direction: column;
   }
 
-  nav a {
-    margin: 0.25rem 0;
+  .work-list {
+    flex-direction: column;
+    align-items: center;
   }
-
-  .hire-content {
-    padding: 1rem;
-  }
-}
-
-/* Blockquote styling for quote */
-blockquote {
-  background-color: #eef;
-  padding: 15px 20px;
-  margin: 2rem 0;
-  border-left: 5px solid #88c;
-  font-style: italic;
 }
