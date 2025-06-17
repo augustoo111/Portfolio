@@ -51,13 +51,10 @@ Feel free to get in touch with me:
 
 ## Hire Me
 
-If you're seeking a dedicated and passionate individual who is eager to learn and contribute, please consider hiring me. You can find more information in the [Hire Me](hireme.html) section of my portfolio.
-
-## 📄 Download My CV
-
 Interested in learning more about my background and skills?  
 You can download my CV [here](images/CV.pdf).
 ---
 
 Thank you for visiting my portfolio!  
+Feel free to connect with me on [LinkedIn](http://www.linkedin.com/in/augustina-oo-131040230)
 I look forward to connecting with you. 😊
