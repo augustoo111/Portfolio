@@ -73,25 +73,33 @@ nav a.active {
 }
 
 /* ========== Work Section ========== */
-/* Existing style for work items */
+/* Make work-list vertical */
+.work-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0;
+  align-items: center; /* center-align single cards */
+}
+
+/* Each project card stretches fully but remains clean */
 .work-item {
+  width: 100%;
+  max-width: 750px;
   background-color: white;
   padding: 1.5rem;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 300px;
-  text-align: left;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease;
 }
 
 .work-item:hover {
-  transform: translateY(-5px);
+  transform: translateY(-4px);
 }
 
 .work-item h3 {
-  font-size: 1.2rem;
   margin-bottom: 0.5rem;
+  font-size: 1.2rem;
 }
 
 .work-item p {
@@ -102,14 +110,21 @@ nav a.active {
 
 .work-item ul {
   list-style-type: disc;
-  padding-left: 1.25rem;
-  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+  margin: 0.5rem 0;
 }
 
 .work-item ul ul {
   list-style-type: circle;
-  padding-left: 1.25rem;
-  margin-top: 0.3rem;
+  padding-left: 1.5rem;
+}
+
+.work-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 /* Add styles for images inside .work-item */
