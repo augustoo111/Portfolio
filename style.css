@@ -5,20 +5,39 @@
   box-sizing: border-box;
 }
 
-/* ========== Body & Typography ========== */
+/* ========== Typography & Layout ========== */
 body {
   font-family: Arial, sans-serif;
   background-color: #e0f7fa; /* light sky blue */
-  line-height: 1.6;
   color: #333;
-  padding: 20px;
+  line-height: 1.6;
   max-width: 960px;
   margin: auto;
+  padding: 20px;
 }
 
 h1, h2, h3 {
   color: #2c3e50;
   margin-bottom: 1rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* ========== Header Branding ========== */
+.logo-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 1.5rem 0;
+}
+
+.logo-nav img {
+  width: 80px;
+  height: 80px;
 }
 
 /* ========== Navigation ========== */
@@ -28,8 +47,8 @@ nav ul {
   background-color: #555;
   padding: 1rem 0;
   margin-bottom: 2rem;
-  flex-wrap: wrap;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 nav li {
@@ -47,27 +66,40 @@ nav a.active {
   border-radius: 5px;
 }
 
-/* ========== Header Branding ========== */
-.logo-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 1rem 0;
-}
-
-.logo-nav img {
-  width: 80px;
-  height: 80px;
-}
-
 /* ========== Section Title ========== */
 .section-title {
   text-align: center;
   margin-bottom: 2rem;
 }
 
-/* ========== My Works Section ========== */
+/* ========== About Section ========== */
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* ========== Work Section ========== */
 .work-list {
   display: flex;
   flex-wrap: wrap;
@@ -82,7 +114,6 @@ nav a.active {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 300px;
-  text-align: left;
   transition: transform 0.2s ease;
 }
 
@@ -98,50 +129,45 @@ nav a.active {
 .work-item p {
   margin-bottom: 0.5rem;
   font-size: 0.95rem;
-  color: #444;
 }
 
 .work-item ul {
   list-style-type: disc;
   padding-left: 1.25rem;
-  margin-top: 0.5rem;
 }
 
 .work-item ul ul {
   list-style-type: circle;
-  padding-left: 1.25rem;
   margin-top: 0.3rem;
 }
 
-.work-item a {
+/* ========== Skills, Contact, and General Blocks ========== */
+.hire-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+}
+
+/* ========== Links & Buttons ========== */
+a {
   color: #007acc;
   text-decoration: none;
 }
 
-.work-item a:hover {
+a:hover {
   text-decoration: underline;
 }
 
-/* ========== Skills Section ========== */
-.hire-content {
-  background-color: white;
-  padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-  margin: auto;
-  max-width: 700px;
-  margin-bottom: 2rem;
-}
-
-/* ========== Buttons & Links ========== */
 .link, .cv-link {
   display: inline-block;
-  margin-top: 0.5rem;
   padding: 0.5rem 1rem;
   background-color: #007acc;
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  margin-top: 1rem;
 }
 
 .link:hover, .cv-link:hover {
@@ -156,52 +182,25 @@ footer {
   background-color: #555;
   padding: 1rem;
   margin-top: 2rem;
+  border-radius: 5px;
 }
 
-/* ========== Responsive ========== */
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-  }
-
-  .work-list {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .work-item {
-    width: 100%;
-    max-width: 100%;
-  }
-.about-container {
-  display: flex;
-  align-items: flex-start;
-  gap: 2rem;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: white;
-  padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  margin-bottom: 2rem;
-}
-
-
-/* Responsive layout for mobile */
+/* ========== Responsive Design ========== */
 @media (max-width: 768px) {
   .about-container {
     flex-direction: column;
     text-align: center;
   }
 
-  .about-text {
-    max-width: 100%;
-  }
-
   .about-text ul {
     text-align: left;
   }
-}
 
+  .work-item {
+    max-width: 100%;
+  }
 
+  nav ul {
+    flex-direction: column;
+  }
 }
