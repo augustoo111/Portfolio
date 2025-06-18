@@ -126,36 +126,53 @@ footer {
     flex-direction: column;
   }
 
-  .work-list {
-    flex-direction: column;
-    align-items: center;
-  }
-  .work-item {
-      background-color: #ffffff;
-      border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-      padding: 2rem;
-      margin-bottom: 2rem;
-      transition: transform 0.2s ease;
-    }
+ /* Ensure work-list content is clearly structured */
+.work-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+}
 
-    .work-item:hover {
-      transform: translateY(-5px);
-    }
+/* Style each project item card */
+.work-item {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: left;
+}
 
-    .work-item h3 {
-      margin-bottom: 0.5rem;
-      color: #2c3e50;
-    }
+/* Headings inside work-items */
+.work-item h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
 
-    .work-item p, .work-item ul {
-      margin-bottom: 1rem;
-      font-size: 1rem;
-    }
+/* Make sure lists are left-aligned and well-spaced */
+.work-item ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 0.5rem 0 0 0;
+  text-align: left;
+}
 
-    .work-item ul ul {
-      margin-left: 1.5rem;
-    }
+.work-item ul ul {
+  list-style-type: circle;
+  padding-left: 1.5rem;
+  margin-top: 0.3rem;
+}
+
+/* Links styling inside work items */
+.work-item a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.work-item a:hover {
+  text-decoration: underline;
+}
+
 
     .link {
       display: inline-block;
