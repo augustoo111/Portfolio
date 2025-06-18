@@ -126,24 +126,6 @@ nav a.active {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-/* Add styles for images inside .work-item */
-.poster-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-top: 1rem;
-  justify-content: center;
-}
-
-.poster-gallery img {
-  flex: 0 1 calc(50% - 0.5rem); /* 2 images per row with gap */
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  object-fit: cover;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
 
 /* ========== Skills, Contact, and General Blocks ========== */
 .hire-content {
